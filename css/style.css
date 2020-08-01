@@ -105,12 +105,13 @@ p#line3 {
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
-    margin:9px;
+    margin: 0px;
   }
   
   #navbar ul {
     display: flex;
     font-family: Georgia, "Times New Roman", Times, serif;
+    margin-right: 0px;
   }
   #navbar ul li {
     list-style: none;
@@ -154,5 +155,41 @@ p#line3 {
     position: relative;
     left:30%;
   }
+  #vision_content{
+    margin-top: 270px;
+    position: relative;
+    right:20%;
+    margin-left: -50px;
+  }
 
+  p#line1{
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'Times New Roman', Times, serif;  
+    font-size: 14px;
+    color: rgba(0,0,0);
+    animation: typing 4s steps(29,end) 1s 1 normal both, 600ms steps(29,end) infinite;
+  }
+  
+  p#line2 {
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'Times New Roman', Times, serif;  
+    font-size: 14px;
+    color: rgba(0,0,0);
+    animation: typing 4s steps(29,end) 5s 1 normal both, 600ms steps(29,end) infinite;
+  }
+  p#line3 {
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'Times New Roman', Times, serif;  
+    font-size: 14px;
+    color: rgba(0,0,0);
+    animation: typing 4s steps(29,end) 9s 1 normal both, 600ms steps(29,end) infinite;
+  }
+  
+  @keyframes typing{
+    from{width: 0;}
+    to{width: 980px;}
+  }
 }
