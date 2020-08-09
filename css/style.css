@@ -14,7 +14,7 @@
   font-size: 1.3rem;
   font-weight: bold;
   border-radius: 40px;
-  margin:20px;
+  margin: 20px;
 }
 
 #navbar ul {
@@ -37,159 +37,102 @@
   color: rgb(217, 231, 14);
 }
 
-hr{
-    background:linear-gradient(rgb(11, 189, 243), rgb(154, 16, 223));
-    height: 3px;
-    border:none;
-    max-width: 150px;
+hr {
+  background: linear-gradient(rgb(11, 189, 243), rgb(154, 16, 223));
+  height: 3px;
+  border: none;
+  max-width: 150px;
 }
-#mission_content{
+#mission_content {
   margin-top: 40px;
   position: absolute;
-  left:23%;
+  left: 23%;
   margin-left: -50px;
 }
-p#line1{
+p#line1 {
   white-space: nowrap;
-  overflow: hidden;    
-  font-family: 'Times New Roman', Times, serif;  
+  overflow: hidden;
+  font-family: "Times New Roman", Times, serif;
   font-size: 28px;
-  color: rgba(0,0,0);
-  animation: typing 4s steps(29,end) 1s 1 normal both, 600ms steps(29,end) infinite;
+  color: rgba(0, 0, 0);
+  animation: typing 4s steps(29, end) 1s 1 normal both,
+    600ms steps(29, end) infinite;
 }
 
 p#line2 {
   white-space: nowrap;
-  overflow: hidden;    
-  font-family: 'Times New Roman', Times, serif;  
+  overflow: hidden;
+  font-family: "Times New Roman", Times, serif;
   font-size: 28px;
-  color: rgba(0,0,0);
-  animation: typing 4s steps(29,end) 5s 1 normal both, 600ms steps(29,end) infinite;
+  color: rgba(0, 0, 0);
+  animation: typing 4s steps(29, end) 5s 1 normal both,
+    600ms steps(29, end) infinite;
 }
 p#line3 {
   white-space: nowrap;
-  overflow: hidden;    
-  font-family: 'Times New Roman', Times, serif;  
+  overflow: hidden;
+  font-family: "Times New Roman", Times, serif;
   font-size: 28px;
-  color: rgba(0,0,0);
-  animation: typing 4s steps(29,end) 9s 1 normal both, 600ms steps(29,end) infinite;
+  color: rgba(0, 0, 0);
+  animation: typing 4s steps(29, end) 9s 1 normal both,
+    600ms steps(29, end) infinite;
 }
 
-@keyframes typing{
-  from{width: 0;}
-  to{width: 980px;}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 980px;
+  }
 }
 
-#vision_content{
+#vision_content {
   margin-top: 40px;
   position: absolute;
-  right:20%;
+  right: 20%;
   margin-left: -50px;
 }
 
-#vision_image{
-  position:absolute;
+#vision_image {
+  position: absolute;
   right: 10%;
   margin-right: -50px;
 }
-
-/* For SmartPhones */
-@media(max-width:818px){
-  #navbar {
-    display: flex;
-    align-items: center;
-    position: sticky;
-    top: 0px;
-    background: repeating-radial-gradient(rgb(154, 16, 223),rgb(11, 235, 243));
-    opacity: 0.8;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-    margin: 0px;
-  }
-  
-  #navbar ul {
-    display: flex;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    margin-right: 0px;
-  }
-  #navbar ul li {
-    list-style: none;
-    padding: 5px;
-  }
-  
-  #navbar ul li a {
-    color: rgb(0, 255, 13);
-    display: block;
-    padding: 5px 0px;
-    text-decoration: none;
-  }
-  
-  #navbar ul li a:focus {
-    color: rgb(255, 255, 255);
-  }
-  
-  hr{
-      background:linear-gradient(rgb(11, 189, 243), rgb(154, 16, 223));
-      height: 3px;
-      border:none;
-      max-width: 150px;
-  }
-  #mission_content{
-    margin-top: 30px;
-    position: relative;
-    left:20%;
-    margin-bottom: 30px;
-  }
-  #mission_image{
-    position: absolute;
-    left:20%;
-  }
-  #vision_content{
-    margin-top: 230px;
-    position: relative;
-    left:20%;
-    margin-bottom: 30px;
-  }
-  #vision_image{
-    position: relative;
-    left:30%;
-  }
-  #vision_content{
-    margin-top: 270px;
-    position: relative;
-    right:20%;
-    margin-left: -50px;
-  }
-
-  p#line1{
-    white-space: nowrap;
-    overflow: hidden;    
-    font-family: 'Times New Roman', Times, serif;  
-    font-size: 14px;
-    color: rgba(0,0,0);
-    animation: typing 4s steps(29,end) 1s 1 normal both, 600ms steps(29,end) infinite;
-  }
-  
-  p#line2 {
-    white-space: nowrap;
-    overflow: hidden;    
-    font-family: 'Times New Roman', Times, serif;  
-    font-size: 14px;
-    color: rgba(0,0,0);
-    animation: typing 4s steps(29,end) 5s 1 normal both, 600ms steps(29,end) infinite;
-  }
-  p#line3 {
-    white-space: nowrap;
-    overflow: hidden;    
-    font-family: 'Times New Roman', Times, serif;  
-    font-size: 14px;
-    color: rgba(0,0,0);
-    animation: typing 4s steps(29,end) 9s 1 normal both, 600ms steps(29,end) infinite;
-  }
-  
-  @keyframes typing{
-    from{width: 0;}
-    to{width: 980px;}
-  }
+#facts {
+  margin-top: 300px;
+  position: absolute;
+  background: repeating-radial-gradient(rgb(98, 235, 160), rgb(37, 126, 44));
+  opacity: 0.8;
+  right: 30%;
+  margin-left: -50px;
+  width: 100vh;
+  left: 25%;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+#facts ul {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+}
+#label1,
+#label2,
+#label3 {
+  position: relative;
+  left: 50px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+#value1,
+#value2,
+#value3 {
+  list-style: none;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-right: 0px;
+  position: relative;
+  right: 10%;
+  margin-top: 30px;
+  font-size: 3rem;
 }
